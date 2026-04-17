@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@ta@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: hsl(174, 86%, 45%);
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(16, 213, 194, 0.6);
+  background-image: url("https://raw.githubusercontent.com/frontendmentor/interactive-pricing-component/master/images/icon-slider.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider::-moz-range-thumb {
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 50%;
+  background: hsl(174, 86%, 45%);
+}
